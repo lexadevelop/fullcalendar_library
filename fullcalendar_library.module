@@ -30,12 +30,12 @@ function fullcalendar_library_library_info_alter(&$libraries, $extension) {
 
     if (!file_exists(DRUPAL_ROOT . '/libraries/fullcalendar/fullcalendar.min.css')) {
       unset($libraries['fullcalendar']['css']['theme']['/libraries/fullcalendar/fullcalendar.min.css']);
-      $libraries['fullcalendar']['css']['theme'][FULLCALENDAR_CSS_CDN] = ['type' => 'external', 'minified' => TRUE];
+      $libraries['fullcalendar']['css']['theme'][FULLCALENDAR_CSS_CDN] = ['type' => 'external', 'minified' => TRUE, 'media' => 'screen'];
     }
 
     if (!file_exists(DRUPAL_ROOT . '/libraries/fullcalendar/fullcalendar.print.min.css')) {
       unset($libraries['fullcalendar']['css']['theme']['/libraries/fullcalendar/fullcalendar.print.min.css']);
-      $libraries['fullcalendar']['css']['theme'][FULLCALENDAR_PRINT_CSS_CDN] = ['type' => 'external', 'minified' => TRUE];
+      $libraries['fullcalendar']['css']['theme'][FULLCALENDAR_PRINT_CSS_CDN] = ['type' => 'external', 'minified' => TRUE, 'media' => 'print'];
     }
 
     if (!file_exists(DRUPAL_ROOT . '/libraries/fullcalendar-scheduler/scheduler.min.js')) {

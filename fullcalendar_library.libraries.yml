@@ -8,8 +8,8 @@ fullcalendar:
     - core/jquery
   css:
     theme:
-      /libraries/fullcalendar/fullcalendar.min.css: { media: screen, minified: true }
       /libraries/fullcalendar/fullcalendar.print.min.css: { media: print, minified: true }
+      /libraries/fullcalendar/fullcalendar.min.css: { media: screen, minified: true }
 
 fullcalendar-scheduler:
   version: VERSION
