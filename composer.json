@@ -6,5 +6,8 @@
         "Drupal"
     ],
     "license": "GPL-2.0+",
+    "replace": {
+        "drupal/fullcalendar_library": "self.version"
+    },
     "minimum-stability": "dev"
 }
