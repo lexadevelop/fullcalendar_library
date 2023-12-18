@@ -1,10 +1,10 @@
 {
-    name: "lexadevelop/fullcalendar_library",
-    type: "drupal-module",
-    description: "Provides Fullcalendar Library with D10 patch",
-    keywords: [
+    "name": "lexadevelop/fullcalendar_library",
+    "type": "drupal-module",
+    "description": "Provides Fullcalendar Library with D10 patch",
+    "keywords": [
         "Drupal"
     ],
-    license: "GPL-2.0+",
-    minimum-stability: "dev"
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev"
 }
